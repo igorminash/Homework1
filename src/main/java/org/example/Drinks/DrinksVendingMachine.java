@@ -18,16 +18,6 @@ public class DrinksVendingMachine implements Machine {
         throw new IllegalStateException(String.format("Продукт с названием %s не найден.", name));
     }
 
-//    public HotDrinks getDrink(String name, Double volume) {
-//        for (Drink drink : drinks) {
-//            if (drinks instanceof HotDrinks) {
-//                if (((HotDrinks) drinks).getName().equalsIgnoreCase(name) && ((HotDrinks) drinks).getVolume().equals(volume)) {
-//                    return (HotDrinks) drinks;
-//                }
-//            }
-//        }
-//        throw new IllegalStateException(String.format("Продукт с названием %s не найден.", name));
-//    }
     public HotDrinks getDrink(String name, Double volume, Integer temperature) {
         for (Drink drink : drinks) {
             if (drink instanceof HotDrinks) {

@@ -1,6 +1,5 @@
 package org.example.Homework4.service;
 
-import java.time.LocalDate;
 import java.util.List;
 
 public interface UserService<T> {

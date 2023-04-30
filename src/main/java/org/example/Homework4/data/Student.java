@@ -1,7 +1,5 @@
 package org.example.Homework4.data;
 
-import java.time.LocalDate;
-
 public class Student extends User implements Comparable<Student>{
     private Long studentId;
 

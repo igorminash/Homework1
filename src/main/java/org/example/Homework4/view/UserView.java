@@ -1,7 +1,6 @@
 package org.example.Homework4.view;
 
 
-import org.example.Homework4.data.Teacher;
 import org.example.Homework4.data.User;
 
 import java.util.List;

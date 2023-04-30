@@ -1,5 +1,4 @@
 package org.example.Homework4.data;
-import java.time.LocalDate;
 import java.util.Comparator;
 
 public class Teacher extends User{

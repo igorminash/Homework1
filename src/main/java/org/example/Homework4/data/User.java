@@ -1,7 +1,5 @@
 package org.example.Homework4.data;
 
-import java.time.LocalDate;
-
 public class User {
     private String firstName;
     private String secondName;
